@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    background-image: url("homebg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#navbarr{
+    background-color: grey;
+    border-radius: 15px;
+    height: 50px;
+    position: absolute;
+    top: 5vh;
+    left: 10vh;
+    border: 0;
+    opacity: 0.8;
+}
+
+#ull{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    position: absolute;
+    top: 1vh;
+}
+
+#text1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4vh;
+    position: absolute;
+    left: 5vh;
+    top: 1vh;
+    cursor: default;
+}
+
+#text1{
+    cursor: default;
+    font-weight: bolder;
+}
+
+#text2{
+    position: absolute;
+    top: 30vh;
+    font-weight: bolder;
+    font-size: 15vh;
+    left: 5vh;
+    color: grey;
+    cursor: default;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+
+#text3{
+    position: absolute;
+    top: 47vh;
+    font-weight: bolder;
+    font-size: 15vh;
+    left: 35vh;
+    color: grey;
+    cursor: default;
+    filter: drop-shadow(0 0 0.75rem gray);
+}
+
+#h:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+#a:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+#p:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+#c:hover{
+    color: black;
+    font-weight: bolder;
+}
+
+#about{
+    background-image: url("aboutbg.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110vh;
+    background-position: center;
+}
+
+#text4{
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+    position: absolute;
+    left: 80vh;
+    line-height: 15vh;
+}
+
+#text5{
+    position: absolute;
+    top: 120vh;
+    left: 30vh;
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#text6{
+    position: absolute;
+    font-size: 2.8vh;
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem black);
+    top: 128vh;
+    left: 5vh;
+    cursor: default;
+}
+
+#text7{
+    position: absolute;
+    top: 166vh;
+    left: 112vh;
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#text8{
+    position: absolute;
+    top: 175vh;
+    left: 108vh;
+    font-size: 2.8vh;
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#image1{
+    position: absolute;
+    height: 40vh;
+    width: 50vh;
+    border-radius: 25px;
+    left: 120vh;
+    top: 120vh;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+#image2{
+    position: absolute;
+    height: 40vh;
+    width: 50vh;
+    border-radius: 25px;
+    left: 10vh;
+    top: 164vh;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+#probo1{
+    height: 433px;
+    width: 282px;
+    border-radius: 25px;
+    background: linear-gradient(157.48deg, #521755 0.87%, #293576 100%);
+    background-blend-mode: multiply;
+    position: absolute;
+    left: 30vh;
+    filter: drop-shadow(0 0 0.75rem #521755);
+    top: 240vh;
+}
+
+#image3{
+    height: 207px;
+    width: 215px;
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+    border-radius: 25vh;
+}
+
+#text10{
+    color: grey;
+    position: absolute;
+    top: 36vh;
+    left: 5vh;
+    font-size: 4vh;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#text10:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#text11{
+    color: grey;
+    position: absolute;
+    top: 44vh;
+    left: 12vh;
+    font-size: 4vh;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#text11:hover{
+    cursor: default;
+    color: red;
+}
+
+#probo2{
+    height: 433px;
+    width: 282px;
+    border-radius: 25px;
+    background: linear-gradient(157.48deg, #521755 0.87%, #293576 100%);
+    background-blend-mode: multiply;
+    position: absolute;
+    left: 82vh;
+    filter: drop-shadow(0 0 0.75rem #521755);
+    top: 240vh;
+}
+
+#image4{
+    height: 207px;
+    width: 215px;
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+    border-radius: 25vh;
+}
+
+#text12{
+    color: grey;
+    position: absolute;
+    top: 36vh;
+    left: 12vh;
+    font-size: 4vh;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#text12:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#text13{
+    color: grey;
+    position: absolute;
+    top: 44vh;
+    left: 14vh;
+    font-size: 4vh;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#text13:hover{
+    cursor: default;
+    color: red;
+}
+
+#probo3{
+    height: 433px;
+    width: 282px;
+    border-radius: 25px;
+    background: linear-gradient(157.48deg, #521755 0.87%, #293576 100%);
+    background-blend-mode: multiply;
+    position: absolute;
+    left: 130vh;
+    filter: drop-shadow(0 0 0.75rem #521755);
+    top: 240vh;
+}
+
+#image5{
+    height: 207px;
+    width: 215px;
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+    border-radius: 25vh;
+}
+
+#text14{
+    color: grey;
+    position: absolute;
+    top: 36vh;
+    left: 10vh;
+    font-size: 4vh;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#text14:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#text15{
+    color: grey;
+    position: absolute;
+    top: 44vh;
+    left: 15vh;
+    font-size: 4vh;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#text15:hover{
+    cursor: default;
+    color: red;
+}
+
+#product{
+    background-image: url("productbg.jpg");
+    background-size: cover;
+    height: 110vh;
+    background-repeat: no-repeat;
+}
+
+#text9{
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+    position: absolute;
+    left: 78vh;
+    line-height: 15vh;
+}
+
+#line{
+    background-color: grey;
+    filter: drop-shadow(0 0 0.75rem grey);
+    height: 2px;
+    width: 248px;
+    position: absolute;
+    left: 82vh;
+    top: 222vh;
+}
+
+#contact{
+    background-image: url("contactbg.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#text18{
+    position: absolute;
+    left: 80vh;
+    line-height: 20vh;
+    color: whitesmoke;
+    filter: drop-shadow(0 0 0.75rem black);
+    cursor: default;
+}
+
+#il{
+    position: absolute;
+    left: 110vh;
+    top: 360vh;
+    filter: drop-shadow(0 0 0.75rem #521755);
+    cursor: pointer;
+}
+
+#fl{
+    position: absolute;
+    left: 90vh;
+    top: 360vh;
+    filter: drop-shadow(0 0 0.75rem #521755);
+    cursor: pointer;
+}
+
+#el{
+    position: absolute;
+    left: 70vh;
+    top: 360vh;
+    filter: drop-shadow(0 0 0.75rem #521755);
+    cursor: pointer;
+}
+
+#nov{
+    height: 80px;
+    width: 80px;
+    border-radius: 25vh;
+    background: whitesmoke;
+    background-blend-mode: multiply;
+    position: absolute;
+    top: 23.4vh;
+    left: 148.8vh;
+    filter: drop-shadow(0 0 0.75rem #521755);
+}
+
+#nov:hover{
+    cursor: default;
+}
+
+#noov{
+    font-size: 1.3vh;
+    color: black;
+    position: absolute;
+    top: 3vh;
+    left: 1.2vh;
+}
+
+#noov:hover{
+    cursor: default;
+    font-weight: bolder;
+    filter: drop-shadow(0 0 0.75rem grey);
+}
+
+#noovc{
+    font-size: 2vh;
+    color: rgb(48, 44, 44);
+    position: absolute;
+    top: 6vh;
+    left: 3vh;
+}
+
+#noovc:hover{
+    cursor: default;
+    font-weight: bolder;
+    filter: drop-shadow(0 0 0.75rem grey);
+}
+
+#copyri{
+    position: absolute;
+    top: 410vh;
+    left: 85vh;
+    font-size: 3.5vh;
+    color: black;
+    filter: drop-shadow(0 0 0.75rem grey);
+    cursor: default;
+}
+
+#copyri:hover{
+    filter: drop-shadow(0 0 0.75rem grey);
+    cursor: default;
+}
